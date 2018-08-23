@@ -1,6 +1,6 @@
 {
   "name": "nx-extra-tools",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha-1",
   "description": "",
   "keywords": [],
   "main": "dist/nx-extra-tools.umd.js",
@@ -81,8 +81,11 @@
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
+    "@types/app-root-path": "^1.2.4",
     "@types/jest": "^22.0.0",
     "@types/node": "^10.0.3",
+    "@types/yargs": "^11.1.1",
+    "@nrwl/schematics": "^6.2.1",
     "colors": "^1.1.2",
     "commitizen": "^2.9.6",
     "coveralls": "^3.0.0",
@@ -110,5 +113,8 @@
     "tslint-config-standard": "^7.0.0",
     "typedoc": "^0.11.0",
     "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "app-root-path": "^2.1.0"
   }
 }
