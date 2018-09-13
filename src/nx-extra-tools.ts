@@ -87,7 +87,8 @@ const checkoutApp = (appName: string) => {
   checkout()
 }
 
-const cli = yargs
+/*tslint:disable:no-unused-expression*/
+yargs
   .usage('Perform partial checkouts to only work on subset of the monorepo')
   .command(
     '$0',
@@ -99,4 +100,5 @@ const cli = yargs
       }),
     args => checkoutApp(args.apps)
   )
-  .help('help').argv
+  .help('help')
+/*tslint:enable*:no-unused-expression*/
