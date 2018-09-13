@@ -89,6 +89,7 @@
     "@types/jest": "^22.0.0",
     "@types/node": "^10.0.3",
     "@types/yargs": "^11.1.1",
+    "@nrwl/schematics": "^6.2.0",
     "colors": "^1.1.2",
     "commitizen": "^2.9.6",
     "coveralls": "^3.0.0",
