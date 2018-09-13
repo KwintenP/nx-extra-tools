@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NxModule } from '@nrwl/nx';
-import { Lib1Module } from '@nx-extra-tools-playground/lib1'
-import { Lib2Module } from '../../../../libs/lib2/src'
+import { Lib1Module } from '@nx-extra-tools-playground/lib1';
+import { Lib2Module } from '@nx-extra-tools-playground/lib2';
 
 @NgModule({
   declarations: [AppComponent],
