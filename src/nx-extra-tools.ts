@@ -91,7 +91,7 @@ const checkoutApp = (appName: string) => {
 yargs
   .usage('Perform partial checkouts to only work on subset of the monorepo')
   .command(
-    '$0',
+    'checkout',
     'Checks out app and libs that are checked out at this instance',
     yargsOptions =>
       yargsOptions.option('apps', {

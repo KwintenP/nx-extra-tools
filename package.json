@@ -40,6 +40,9 @@
       "git add"
     ]
   },
+  "bin": {
+    "nx-extra": "./src/nx-extra-tools.js"
+  },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
